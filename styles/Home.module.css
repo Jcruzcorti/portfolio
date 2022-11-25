@@ -1,5 +1,52 @@
 .container {
   padding: 0 2rem;
+
+background: 
+    linear-gradient(
+      to bottom,
+      hsl(56, 100%, 97.06%) 0%,
+      hsl(57.14, 100%, 95.45%) 13%,
+      hsl(57.67, 100%, 93.97%) 23.2%,
+      hsl(57.97, 100%, 92.6%) 31%,
+      hsl(58.16, 100%, 91.34%) 36.9%,
+      hsl(58.3, 100%, 90.16%) 41.3%,
+      hsl(58.41, 100%, 89.05%) 44.6%,
+      hsl(58.49, 100%, 87.99%) 47.2%,
+      hsl(58.56, 100%, 86.96%) 49.8%,
+      hsl(58.62, 100%, 85.93%) 52.6%,
+      hsl(58.68, 100%, 84.88%) 56.1%,
+      hsl(58.73, 100%, 83.78%) 60.8%,
+      hsl(58.78, 100%, 82.59%) 67%,
+      hsl(58.83, 100%, 81.27%) 75.4%,
+      hsl(58.88, 100%, 79.78%) 86.2%,
+      hsl(58.93, 100%, 78.04%) 100%
+    );
+  
+}
+.container2{
+  padding: 0 2rem;
+
+  background: 
+    linear-gradient(
+      to bottom,
+      hsl(56.92, 100%, 77.06%) 0%,
+      hsl(56.93, 100%, 79.45%) 13%,
+      hsl(56.95, 100%, 81.44%) 23.2%,
+      hsl(57, 100%, 83.11%) 31%,
+      hsl(57.06, 100%, 84.54%) 36.9%,
+      hsl(57.14, 100%, 85.79%) 41.3%,
+      hsl(57.23, 100%, 86.89%) 44.6%,
+      hsl(57.34, 100%, 87.89%) 47.2%,
+      hsl(57.46, 100%, 88.8%) 49.8%,
+      hsl(57.6, 100%, 89.67%) 52.6%,
+      hsl(57.78, 100%, 90.51%) 56.1%,
+      hsl(57.99, 100%, 91.36%) 60.8%,
+      hsl(58.26, 100%, 92.22%) 67%,
+      hsl(58.64, 100%, 93.12%) 75.4%,
+      hsl(59.17, 100%, 94.07%) 86.2%,
+      hsl(60, 100%, 95.1%) 100%
+    );
+  ;
 }
 
 .main {
@@ -12,11 +59,58 @@
   align-items: center;
 }
 
+
+.ColorTheme{
+  width: 42px;
+  height: 42px;
+  padding: 0;
+}
+
+.divButton{
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.principalColor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  filter: drop-shadow(3px 3px 4px #232323);
+  background-color:hsl(57.14, 100%, 85.79%);
+  color: #080808 ;
+  cursor: pointer;
+}
+
+.secondaryColor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  filter: drop-shadow(3px 3px 4px #232323);
+  background-color:hsl(57.6, 100%, 89.67%);
+  color: #080808 ;
+  cursor: pointer;
+}
+
+
+
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 2px solid #202020;
+
   justify-content: center;
   align-items: center;
 }
