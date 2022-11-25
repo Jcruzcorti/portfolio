@@ -102,7 +102,26 @@ background:
   cursor: pointer;
 }
 
+.footerImgs{
+  width: 35px;
+  height: auto;
+  padding-left: 5px;
+}
 
+
+
+.pFooter{
+  /* font-family: 'Crimson Text', serif; */
+  font-size: 20px;
+  color: #141414;
+  margin: 0;
+}
+
+
+/* .logo {
+  height: 1em;
+  margin-left: 0.5rem;
+} */
 
 
 .footer {
@@ -197,10 +216,7 @@ background:
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
+
 
 @media (max-width: 600px) {
   .grid {
