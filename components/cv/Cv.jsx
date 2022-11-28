@@ -10,7 +10,29 @@ function Cv() {
   return (
     <div className={styles.divCv}>
 
+
         <div className={styles.divCvIzquierda}>
+
+            <h2 className={styles.h2}>Formación académica</h2>
+            <div className={styles.divFormación}>
+                <p className={styles.h4}>Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013</p>
+                <p className={styles.h4}>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p>
+                <p className={styles.h4}>Curso de Desarrollo web en Coderhouse-Ver certificación</p>
+                <p className={styles.h4}>Curso de Javascript en Coderhouse-Ver certificación</p>
+                <p className={styles.h4}>Curso de React Js en Coderhouse-Ver certificación</p>
+
+            </div>
+            
+            <h2 className={styles.h2}>Aptitudes</h2>
+            <div className={styles.divAptitudes}>
+                <p className={styles.h4}>Resolución de problemas, buena comunicación, adaptabilidad, organización/orden</p>
+                <p className={styles.h4}>Esfuerzo, constancia, positividad</p>
+                <p className={styles.h4}>Proactividad, autodidacta, empatía, autonomía</p>
+            </div>
+        </div>
+    
+
+        <div className={styles.divCvDerecha}>
             <h2 className={styles.h2} >Conocimientos</h2>
 
             <div className={styles.divConocimientos}>
@@ -23,16 +45,16 @@ function Cv() {
                 <Image src='/clausura.svg' alt='img clausura'  width={50} height={50} className={styles.fotoConocimiento}/>
                 <div className={styles.divSub}>
                     <div className={styles.divSub1}>
-                        <h4 className={styles.h4}>GIT</h4>
-                        <h4 className={styles.h4}>Github</h4>
-                        <h4 className={styles.h4}>Next js</h4>
-                        <h4 className={styles.h4}>SCSS</h4>
+                        <p className={styles.h4}>GIT</p>
+                        <p className={styles.h4}>Github</p>
+                        <p className={styles.h4}>Next js</p>
+                        <p className={styles.h4}>SCSS</p>
                     </div>
                     <div className={styles.divSub2}>
-                        <h4 className={styles.h4}>Bootstrap</h4>
-                        <h4 className={styles.h4}>Firebase</h4>
-                        <h4 className={styles.h4}>Next UI</h4>
-                        <h4 className={styles.h4}>Balsamiq</h4>
+                        <p className={styles.h4}>Bootstrap</p>
+                        <p className={styles.h4}>Firebase</p>
+                        <p className={styles.h4}>Next UI</p>
+                        <p className={styles.h4}>Balsamiq</p>
                     </div>
                 </div>
             </div>
@@ -41,20 +63,10 @@ function Cv() {
 
                 <div className={styles.divIdiomas}>
                     
-                    <h4 className={styles.h4}>Español: nativo</h4>
-                    <h4 className={styles.h4}>Inglés: intermedio/avanzado</h4>
+                    <p className={styles.h4}>Español: nativo</p>
+                    <p className={styles.h4}>Inglés: intermedio/avanzado</p>
                 </div>
         </div>
-        <div className={styles.divCvDerecha}>
-            <div className={styles.divAptitudes}>
-
-            </div>
-
-            <div className={styles.divFormación}>
-
-            </div>
-        </div>
-    
     </div>
   )
 }
