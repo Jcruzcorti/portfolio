@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  
 
 background:   
     linear-gradient(
@@ -76,6 +77,25 @@ background:
   
 }
 
+.ColorArrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  filter: drop-shadow(3px 3px 4px #232323);
+  background-color:hsl(57.77, 32.29%, 64.62%);
+  color: #080808 ;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.ColorArrowImg{
+  width: 40px;
+  height: 40px;
+}
+
 .principalColor{
   display: flex;
   flex-direction: row;
@@ -137,7 +157,7 @@ background:
 .h4{
   font-family: 'Crimson Text', serif;
   /* font-family: 'Cinzel', serif; */
-  font-size: 22px;
+  font-size: 20px;
   color: #141414;
   margin: 5px;
 }
@@ -147,7 +167,6 @@ background:
   flex-direction: row;
   justify-content: space-around;
   align-items:  center;
-
   
 }
 
@@ -179,6 +198,7 @@ background:
 .fotoLink{
   filter: drop-shadow(0px 0px 5px rgb(101, 101, 101));
   padding: 10px;
+  
 
 }
 

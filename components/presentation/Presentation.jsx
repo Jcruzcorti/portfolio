@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
+import Link from 'next/link';
 
 function Presentation() {
 
@@ -15,11 +16,11 @@ function Presentation() {
     </div>
 
     <div className={styles.divLinks}>
-      <Image src='/imgcv.png' alt='img cv' priority={true} width={180} height={180} className={styles.fotoLink}/>
+      <Link href='#Cv' scroll={false}><Image src='/imgcv.png' alt='img cv' priority={true} width={180} height={180} className={styles.fotoLink}/></Link>
       <Image src='/imgportfolio.png' alt='img cv' priority={true} width={180} height={180} className={styles.fotoLink}/>
       <Image src='/imgsobremi.png' alt='img cv' priority={true} width={180} height={180} className={styles.fotoLink}/>
     </div>
-   </div>
+   </div> 
   )
 }
 

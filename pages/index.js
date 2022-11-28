@@ -4,6 +4,7 @@ import PageLayOut from '../components/layout/PageLayOut'
 import styles from '../styles/Home.module.css'
 import Presentation from '../components/presentation/Presentation'
 import Cv from '../components/cv/Cv'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -34,6 +35,13 @@ function changeBackgroundColor() {
           <Cv/>
 
         </main>
+
+        <div className={styles.divButton}>
+          <button className={styles.ColorArrow}>
+           <Link href='/'><Image src="/flecharriba.png" alt='img arrow' width={40} height={40} className={styles.ColorArrowImg}/></Link> 
+          </button>
+        </div>
+
 
         <footer className={styles.footer}>
           <a href="https://www.instagram.com/juancortinas/?hl=es-la"
