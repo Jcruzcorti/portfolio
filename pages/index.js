@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import PageLayOut from '../components/layout/PageLayOut'
 import styles from '../styles/Home.module.css'
+import Presentation from '../components/presentation/Presentation'
 import Cv from '../components/cv/Cv'
 
 export default function Home() {
@@ -28,12 +29,10 @@ function changeBackgroundColor() {
           <h1 className={styles.h1}>BIENVENIDO A MI CV </h1>
         </div>
 
-        <main className={styles.main}>
-        
-  
-          <div>
-            <Cv/>
-          </div>
+        <main className={styles.main}>        
+          <Presentation/>
+          <Cv/>
+
         </main>
 
         <footer className={styles.footer}>
