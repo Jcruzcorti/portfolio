@@ -7,6 +7,7 @@ import Cv from '../components/cv/Cv'
 import Link from 'next/link'
 import Portfolio from '../components/portfolio/Portfolio'
 import Sobremi from '../components/sobremi/Sobremi'
+import Contacto from '../components/contacto/Contacto'
 
 export default function Home() {
 
@@ -37,6 +38,7 @@ function changeBackgroundColor() {
           <Cv/>
           <Portfolio/>
           <Sobremi/>
+          <Contacto/>
         </main>
 
         <div className={styles.divButton2}>
