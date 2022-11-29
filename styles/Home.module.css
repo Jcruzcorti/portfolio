@@ -77,6 +77,15 @@ background:
   
 }
 
+.divButton2{
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  bottom: 10px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
 .ColorArrow{
   display: flex;
   flex-direction: row;
@@ -107,6 +116,7 @@ background:
   background-color:hsl(59.42, 33.84%, 74.27%);
   color: #080808 ;
   cursor: pointer;
+  
 }
 
 .secondaryColor{
@@ -145,6 +155,14 @@ background:
   margin: 10px 0px 10px 0;
 }
 
+.h3{
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  color: #141414;
+  filter: drop-shadow(1px 1px 1px #262626);
+  margin: 10px 0px 10px 0;
+}
+
 .h3Presentation{
   font-family: 'Cinzel', serif;
   font-size: 18px;
@@ -162,11 +180,22 @@ background:
   margin: 5px;
 }
 
+.h4new{
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-size: 20px;
+  color: #141414;
+  margin: 5px;
+  text-align: start;
+  text-indent: 15px;
+}
+
 .divPresentation{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items:  center;
+
   
 }
 
@@ -198,8 +227,6 @@ background:
 .fotoLink{
   filter: drop-shadow(0px 0px 5px rgb(101, 101, 101));
   padding: 10px;
-  
-
 }
 
 
@@ -207,21 +234,25 @@ background:
 .divCv{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items:  center;
+  justify-content: space-evenly;
+  align-items:  baseline;
   margin-top: 150px;
-  border-radius: 2px;
+  padding: 10px;
+  border-radius: 10px;
   /* box-shadow: 0px 0px 9px 0.5px #141414; */
   box-shadow: 3px 3px 10px 0.5px #141414;
+
 }
+
+
 
 
 .divCvIzquierda{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:  center;
-  width: 90vmin;
+  align-items:  baseline;
+  width: 80vmin;
 }
 
 .divIdiomas{
@@ -253,6 +284,8 @@ background:
   flex-direction: column;
   justify-content: center;
   align-items:  center;
+  
+
 }
 
 .divFormación{
@@ -262,6 +295,76 @@ background:
   align-items:  flex-start;
 }
 
+/* .divConocimientos{
+  padding-bottom: 30px;
+} */
+
+
+
+
+.divPortfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  
+}
+
+/* .divProyectos{
+
+} */
+
+
+.divSobremi{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 180px;
+  padding: 10px;
+  border: 1px solid #141414;
+  border-radius: 10px;
+}
+
+.divSobremi:hover{
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 9px 0.5px #141414; */
+  box-shadow: 3px 3px 10px 0.5px #141414;
+  transition: 0.8s all;
+
+}
+
+.divSobremi2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 150vmin;
+}
+
+.divIntereses{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  width: 150vmin;
+
+}
+
+.divInteresesTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.divInteresesItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
 
 

@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Presentation from '../components/presentation/Presentation'
 import Cv from '../components/cv/Cv'
 import Link from 'next/link'
+import Portfolio from '../components/portfolio/Portfolio'
+import Sobremi from '../components/sobremi/Sobremi'
 
 export default function Home() {
 
@@ -17,12 +19,12 @@ function changeBackgroundColor() {
   return (
     
     <PageLayOut title="Portfolio">
-      <div className={colorTheme ? styles.container : styles.container2}>
+      <div className={colorTheme ? styles.container2 : styles.container}>
 
         <div className={styles.divButton}>
           <button 
           onClick={changeBackgroundColor} 
-          className={colorTheme ? styles.principalColor : styles.secondaryColor}>
+          className={colorTheme ? styles.secondaryColor : styles.principalColor}>
             <Image src="/mode.png" alt='img change mode' width={40} height={40} className={styles.ColorTheme}/>
           </button>
         </div>
@@ -33,10 +35,11 @@ function changeBackgroundColor() {
         <main className={styles.main}>        
           <Presentation/>
           <Cv/>
-
+          <Portfolio/>
+          <Sobremi/>
         </main>
 
-        <div className={styles.divButton}>
+        <div className={styles.divButton2}>
           <button className={styles.ColorArrow}>
            <Link href='/'><Image src="/flecharriba.png" alt='img arrow' width={40} height={40} className={styles.ColorArrowImg}/></Link> 
           </button>
