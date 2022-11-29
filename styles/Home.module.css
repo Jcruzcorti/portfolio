@@ -190,6 +190,14 @@ background:
   text-indent: 15px;
 }
 
+.pContact{
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-size: 24px;
+  color: #141414;
+  margin: 5px;
+}
+
 .divPresentation{
   display: flex;
   flex-direction: row;
@@ -375,10 +383,81 @@ background:
 .divContacto{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 180px;
+  
 }
+
+.divForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #141414;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 12px 0.5px #141414;
+  background-color:inherit;
+}
+
+.divContactoForm{
+  /* border: 1px solid #141414;
+  border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.label{
+  padding: 5px;
+  width: 100%;
+  color: #141414;
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+}
+.input{
+  border: 1px solid #141414;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100vh;
+  background-color:inherit;
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-size: 20px;
+  color: #141414;
+  margin: 5px;
+  box-shadow: 0px 0px 0.5px 0.5px #141414;
+}
+
+.divButtonContacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  margin: 5px;
+}
+
+.buttonContacto{
+  background-color:inherit;
+  font-family: 'Crimson Text', serif;
+  font-weight: 900;
+
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid #141414;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 0.5px #141414;
+  
+}
+
+.buttonContacto:hover{
+  box-shadow: 0px 0px 4px 0.5px #141414;
+  cursor: pointer;
+}
+
+
 
 
 
