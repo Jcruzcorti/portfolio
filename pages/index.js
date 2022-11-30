@@ -20,7 +20,7 @@ function changeBackgroundColor() {
   return (
     
     <PageLayOut title="Portfolio">
-      <div className={colorTheme ? styles.container2 : styles.container}>
+      <div className={colorTheme ? styles.container : styles.container2}>
 
         <div className={styles.divButton}>
           <button 
