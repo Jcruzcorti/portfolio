@@ -367,8 +367,29 @@ background:
   justify-content: center;
   align-items: center;
   margin-top: 180px;
+  margin-bottom: 20px;
   
 }
+
+.divProyectos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+
+
+}
+
+.divCard1{
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 9px 0.5px #141414; */
+  box-shadow: 3px 3px 10px 0.5px #141414;
+  padding: 10px;
+}
+
 
 /* .divProyectos{
 
