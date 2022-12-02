@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/image";
 import styles from '../../styles/Home.module.css'
 
 
@@ -11,10 +11,10 @@ function Proyectos({title,description,img}) {
        <div  className={styles.divCard1}>
             <h3 className={styles.h3Card}> {title}</h3>
             <div className={styles.divImgCard}>
-                <Image src={img} alt='img change mode' layout='responsive' priority={true} width={100} height={100} className={styles.imgCard}/>
+                <Image src={img} alt='img proyectos' priority={true} sizes="100vw" width={310} height={180} className={styles.imgCard}/>
             </div>
             <div className={styles.divInfoCard}>
-                <p className={styles.pFooter}>{description}</p>
+                <p className={styles.pCard}>{description}</p>
             </div>
        </div>
     </div>

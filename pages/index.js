@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Image from 'next/image'
+import Image from "next/image";
 import PageLayOut from '../components/layout/PageLayOut'
 import styles from '../styles/Home.module.css'
 import Presentation from '../components/presentation/Presentation'
@@ -30,7 +30,7 @@ function changeBackgroundColor() {
           </button>
         </div>
         <div className={styles.divH1}>
-          <h1 className={styles.h1}>BIENVENIDO A MI CV </h1>
+          <h1 className={styles.h1}>BIENVENIDO A MI PORTFOLIO </h1>
         </div>
 
         <main className={styles.main}>        
@@ -68,7 +68,7 @@ function changeBackgroundColor() {
             rel="noopener noreferrer">
             {/* jcruzcorti{' '} */}
             <p className={styles.pFooter}>jcruzcorti</p>
-              <Image src="/github.png" alt="Vercel Logo" width={72} height={16} className={styles.footerImgs}/>
+              <Image src="/github.png" alt="Vercel Logo" priority={true} sizes="100vw" width={72} height={16} className={styles.footerImgs}/>
           </a>
 
 

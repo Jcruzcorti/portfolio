@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
+import Image from 'next/image';
 
 
 function Sobremi() {
@@ -14,9 +15,9 @@ function Sobremi() {
         <div className={styles.divIntereses}>
             <div className={styles.divInteresesItems}>
                 <h2 className={styles.h2}>Intereses</h2>
-                <p className={styles.h4}>Practicar deportes (Entrenamiento, fútbol, padel, tenis)</p>
-                <p className={styles.h4}>Disfrutar del tiempo con la familia y amigos</p>
-                <p className={styles.h4}>Ver fútbol/series/películas, jugar videojuegos</p>
+                <p className={styles.h4}><Image src='/mate.png' alt='img mate' priority={true} sizes="100vw" width={20} height={20} className={styles.imgMate}/>Practicar deportes (Entrenamiento, fútbol, padel, tenis)</p>
+                <p className={styles.h4}><Image src='/mate.png' alt='img mate' priority={true} sizes="100vw" width={20} height={20} className={styles.imgMate}/>Disfrutar del tiempo con la familia y amigos</p>
+                <p className={styles.h4}><Image src='/mate.png' alt='img mate' priority={true} sizes="100vw" width={20} height={20} className={styles.imgMate}/>Ver fútbol/series/películas, jugar videojuegos</p>
             </div>
                         
 
