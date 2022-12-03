@@ -15,7 +15,7 @@ It consists of 5 sections, the first one is a presentation banner in which besid
 
 In our default terminal, we clone the folder by typing "git clone" + link:
 
-1- git clone https://github.com/Jcruzcorti/porfolio
+1- git clone https://github.com/Jcruzcorti/portfolio
 
 2- Then, we place ourselves in the root folder of the project, with the command "cd PORTFOLIO" and install all the dependencies inside with the command "npm install".
 
