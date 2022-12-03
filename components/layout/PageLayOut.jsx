@@ -4,7 +4,6 @@ import Head from 'next/head'
 function PageLayOut({children,title}) {
 
 
-
   return (
 
     <div>
