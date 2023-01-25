@@ -30,7 +30,7 @@ function changeBackgroundColor() {
           </button>
         </div>
         <div className={styles.divH1}>
-          <h1 className={styles.h1}>BIENVENIDO A MI PORTFOLIO </h1>
+          {/* <h1 className={styles.h1}>BIENVENIDO A MI PORTFOLIO </h1> */}
         </div>
 
         <main className={styles.main}>        
