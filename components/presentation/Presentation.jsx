@@ -13,8 +13,8 @@ function Presentation() {
   <div className={styles.DivPrimaryPresentation}>
     <div className={styles.divPresentation}>
       <div className={styles.divStart}>
-          <h2 className={styles.h3Presentation}>Hola! Soy Juan Cruz Cortiñas</h2>
-          <h3 className={styles.h4}>Front-end Developer</h3>
+          <h2 className={styles.h2}>Hola! Soy Juan Cruz Cortiñas</h2>
+          <h3 className={styles.h3}>Front-end Developer</h3>
           
         </div>
         <div className={styles.divStart2}>

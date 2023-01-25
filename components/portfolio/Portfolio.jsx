@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../styles/Home.module.css'
 import Proyectos from '../proyectos/Proyectos'
 import img1 from '../../public/hp2.png'
-import img2 from '../../public/portfolio.png'
+import img2 from '../../public/newportfolio.png'
 import img3 from '../../public/scaloneta.png'
 import img4 from '../../public/nike.png'
 import img5 from '../../public/mmchocolates.png'
@@ -17,7 +17,7 @@ function Portfolio() {
 
   return (
     <div className={styles.divPortfolio} id={'Portfolio'}>
-        <h2 className={styles.h2}>Proyectos</h2>
+        <h2 className={styles.h2}>PROYECTOS</h2>
         <div className={styles.divProyectos}>
           <Link href={'https://portfoliojcc.vercel.app/'} target='_blank'><Proyectos title='Portfolio' img={img2} priority={false} description='Desarrollo y re-versión de Curriculum, transformándo el sitio web anterior en una app más potente con tecnologías avanzadas como JavaScript, React.js y Next.js'/></Link>            
           <Link href={'https://harrypotterquizgame.vercel.app/'} target='_blank'><Proyectos title='Harry Potter Quiz' img={img1} description='Quiz app con temática Harry Potter utilizando tencologías como JavaScript, React js, Next js y Firebase con el fin de guardar puntuación y nombre del participante  '/></Link>

@@ -58,13 +58,6 @@
 
 }
 
-
-.ColorTheme{
-  width: 42px;
-  height: 42px;
-  padding: 0;
-}
-
 .divButton{
   display: flex;
   flex-direction: row;
@@ -84,51 +77,9 @@
   align-items: flex-end;
   
 }
-.ColorArrow{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  border: none;
-  filter: drop-shadow(3px 3px 4px #232323);
-  background-color: hsl(60, 23.75%, 53.47%);
-  color: #080808 ;
-  cursor: pointer;
-  margin-bottom: 50px;
-}
 
-.ColorArrowImg{
-  width: 40px;
-  height: 40px;
-}
 
-/* .principalColor{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  border: none;
-  filter: drop-shadow(3px 3px 4px #232323);
-  background-color: hsl(60, 25.62%, 56.48%);
-  color: #080808 ;
-  cursor: pointer;
-  
-}
 
-.secondaryColor{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  border: none;
-  filter: drop-shadow(3px 3px 4px #232323);
-  background-color: hsl(60, 36.19%, 67.62%);
-  color: #080808 ;
-  cursor: pointer;
-} */
 
 .divH1{
   display: flex;
@@ -138,45 +89,52 @@
   margin-top: 50px;
 }
 
-.h1{
-  font-family: 'Mukta Mahee', sans-serif;
-  font-size: 48px;
-  color: #141414;
-  filter: drop-shadow(1.5px 1.5px 1px #262626);
-}
-
 .h2{
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 35px;
+  font-size: 28px;
   color: #141414;
-  filter: drop-shadow(1.5px 1.5px 1px #262626);
-  margin: 10px 0px 10px 0;
+  margin: 0;
 }
 
 .h3{
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: #141414;
-  filter: drop-shadow(1px 1px 1px #262626);
-  margin: 10px 0px 10px 0;
-}
-
-.h3Presentation{
-  font-family: 'Mukta Mahee', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  color: #141414;
-  margin: 0px;
+  margin: 0;
 }
 
 .h4{
+  display: flex;
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 600;
   color: #141414;
   margin: 0px;
+  text-align: start;
+  padding: 0;
+  
 }
 
 .h4new{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #141414;
+  margin: 0px;
+  text-align: start;
+  text-indent: 15px;
+}
+
+
+.h5{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 20px;
+  color: #141414;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.h5new{
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 20px;
   color: #141414;
@@ -187,9 +145,9 @@
 
 .pContact{
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #141414;
-  margin: 5px;
+  margin: 0px;
 }
 
 
@@ -310,8 +268,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:  baseline;
+  align-items:  center;
   width: 80vmin;
+
 }
 
 .divIdiomas{
@@ -335,6 +294,11 @@
   justify-content: space-around;
   align-items:  center;
   margin-top: 10px;
+  
+}
+.arrowDropDownIcon{
+  width: 30px;
+  height: 28px;
 }
 
 
@@ -352,8 +316,13 @@
   flex-direction: column;
   justify-content: center;
   align-items:  flex-start;
+  margin-bottom: 20px;
+
 }
 
+.divConocimientos{
+  margin-bottom: 20px;
+}
 
 .divPortfolio{
   display: flex;
@@ -379,7 +348,7 @@
 
 .h3Card{
   font-family: 'Mukta Mahee', sans-serif; 
-  font-size: 28px;
+  font-size: 24px;
   color: #141414;
   filter: drop-shadow(0.5px 0.5px 1px #1414);
   margin: 10px 0px 10px 0;
@@ -388,7 +357,8 @@
 
 .pCard{
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
   color: #141414;
   margin: 0;
   padding: 0;
@@ -478,7 +448,9 @@
 }
 
 .imgMate{
-  vertical-align: text-bottom;
+  vertical-align:middle;
+  width: 22px;
+  height: auto;
 }
 
 
@@ -511,7 +483,7 @@
   align-items: center;
   padding: 5px;
 }
-.label{
+.label {
   padding: 5px;
   width: 100%;
   color: #141414;
@@ -525,11 +497,18 @@
   width: 100vh;
   background-color:inherit;
   font-family: 'Mukta Mahee', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #141414;
   margin: 5px;
   box-shadow: 0px 0px 0.5px 0.5px #141414;
+  resize: none;
+  
 }
+
+.input::placeholder { 
+  color: #282828;
+}
+
 
 .divButtonContacto{
   display: flex;
@@ -544,7 +523,7 @@
   font-family: 'Mukta Mahee', sans-serif;
   font-weight: 900;
   cursor: pointer;
-  padding: 5px;
+  padding: 4px;
   font-size: 18px;
   border: 1px solid #141414;
   border-radius: 4px;
@@ -562,7 +541,7 @@
 
 
 .footerImgs{
-  width: 35px;
+  width: 32px;
   height: auto;
   padding-left: 5px;
 }
@@ -641,77 +620,6 @@
       }
       
       
-      .ColorTheme{
-        width: 32px;
-        height: 32px;
-        padding: 0;
-      }
-      
-      .divButton{
-        display: flex;
-        flex-direction: row;
-        position: sticky;
-        top: 20px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        
-      }
-      
-      .divButton2{
-        display: flex;
-        flex-direction: row;
-        position: sticky;
-        bottom: 45px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        
-      }
-      .ColorArrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        border: none;
-        filter: drop-shadow(3px 3px 4px #232323);
-        background-color: hsl(60, 23.75%, 53.47%);
-        color: #080808 ;
-        cursor: pointer;
-        margin-bottom: none;
-      }
-      
-      .ColorArrowImg{
-        width: 32px;
-        height: 32px;
-      }
-      
-      .principalColor{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        border: none;
-        filter: drop-shadow(3px 3px 4px #232323);
-        background-color: hsl(60, 25.62%, 56.48%);
-        color: #080808 ;
-        cursor: pointer;
-        
-      }
-      
-      .secondaryColor{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        border: none;
-        filter: drop-shadow(3px 3px 4px #232323);
-        background-color: hsl(60, 36.19%, 67.62%);
-        color: #080808 ;
-        cursor: pointer;
-      }
-      
       .divH1{
         display: flex;
         flex-direction: row;
@@ -720,62 +628,72 @@
         margin-top: 0px;
       }
       
-      .h1{
-        font-family: 'Mukta Mahee', sans-serif;
-        font-size: 26px;
-        text-align: center;
-        color: #141414;
-        filter: drop-shadow(1.5px 1.5px 1px #262626);
-        margin-bottom: 50px;
-      }
-      
       .h2{
         font-family: 'Mukta Mahee', sans-serif;
-        font-size: 24px;
+        font-size: 22px;
+        text-align: center;
         color: #141414;
-        filter: drop-shadow(1.5px 1.5px 1px #262626);
-        margin: 10px 0px 10px 0;
+        margin: 0px;
       }
       
       .h3{
         font-family: 'Mukta Mahee', sans-serif;
-        font-size: 20px;
-        color: #141414;
-        filter: drop-shadow(1px 1px 1px #262626);
-        margin: 10px 0px 10px 0;
-      }
-      
-      .h3Presentation{
-        font-family: 'Mukta Mahee', sans-serif;
         font-size: 16px;
-        font-weight: 600;
         color: #141414;
-        margin: 0px;
+        
       }
       
       .h4{
         font-family: 'Mukta Mahee', sans-serif;
         font-size: 14px;
         color: #141414;
-        margin: 0px;
+
       }
-      
+
       .h4new{
         font-family: 'Mukta Mahee', sans-serif;
         font-size: 14px;
+        font-weight: 600;
+        color: #141414;
+        margin: 0px;
+        text-align: start;
+        text-indent: 15px;
+      }
+      
+      
+      .h5{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 14px;
+        color: #141414;
+        margin: 0px;
+        font-weight: 600;
+      }
+      
+      .h5new{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 16px;
         color: #141414;
         margin: 5px;
         text-align: start;
-        text-indent: 6px;
+        text-indent: 15px;
       }
       
       .pContact{
         font-family: 'Mukta Mahee', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         color: #141414;
         margin: 0px;
       }
       
+
+      .DivPrimaryPresentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;  
+        gap: 30px; 
+      }
+
       .divPresentation{
         display: flex;
         flex-direction: column;
@@ -798,7 +716,7 @@
         box-shadow: 1px 1px 15px 2px rgb(65, 65, 61);
         margin-bottom: 15px;
         width: 160px;
-        height: 200px;
+        height: auto;
       }
       
       
@@ -817,7 +735,75 @@
         height: 80px;
       }
       
-      
+      .ButtonHoverPrimary {
+        display: inline-block;
+        width: 85px;
+        height: auto;
+        line-height: 30px;
+        margin: 2px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid hsla(230, 23.48%, 45.1%, 0.975);
+        transition: color .7s;
+        z-index: 1;
+        font-size: 12px;
+        font-family:'Mukta Mahee', sans-serif;
+        border-radius: 8px;
+        font-weight: 900;
+        color: hsla(213.7, 51.77%, 27.65%, 0.996);
+        cursor: pointer;
+        background: rgba(220, 221, 223, 0.991);
+       }
+       
+       .ButtonHoverPrimary:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background:hsla(231.25, 19.83%, 47.45%, 0.972) ;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 100%;
+        left: 100%;
+        transition: all .7s;
+       }
+       
+       .ButtonHoverPrimary:hover {
+        color: rgba(220, 221, 223, 0.991);
+       }
+       
+       .ButtonHoverPrimary:hover:before {
+        top: -30px;
+        left: -30px;
+       }
+    
+    
+    
+    .divButton{
+        display: flex;
+        flex-direction: row;
+        position:sticky;
+        z-index: 2;
+        top: 20px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 50px;
+    }
+    
+    
+    .ButtonLinkHome{
+        display: flex;
+        flex-direction: row;
+        position: sticky;
+        bottom: 20px;
+        margin: 5px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        z-index: 2;
+    }
+    
+
+  
       
       .divCv{
         display: flex;
@@ -863,7 +849,10 @@
         align-items:  center;
         margin-top: 10px;
       }
-      
+      .arrowDropDownIcon{
+        width: 20px;
+        height: 20px;
+      }
       
       .divCvDerecha{
         display: flex;

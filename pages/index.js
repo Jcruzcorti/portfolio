@@ -25,14 +25,9 @@ function changeBackgroundColor() {
       <div className={colorTheme ? styles.container : styles.container2}>
 
         <div className={styles.divButton}>
-          <ButtonTheme 
-          onClick={changeBackgroundColor}/> 
-          
-            {/* <Image src="/mode.png" alt='img change mode' width={40} height={40} className={styles.ColorTheme}/> */}
-          
+          <ButtonTheme onClick={changeBackgroundColor}/> 
         </div>
         <div className={styles.divH1}>
-          {/* <h1 className={styles.h1}>BIENVENIDO A MI PORTFOLIO </h1> */}
         </div>
 
         <main className={styles.main}>        

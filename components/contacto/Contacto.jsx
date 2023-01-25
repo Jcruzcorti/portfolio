@@ -120,7 +120,7 @@ function Contacto() {
 
   return (
     <div className={styles.divContacto} id={'Contacto'}>
-        <h2 className={styles.h2}>Contacto</h2>
+        <h2 className={styles.h2}>CONTACTO</h2>
         <form action="" className={styles.divForm} ref={form} onSubmit={sendEmail}>
             <div className={styles.divContactoForm}>
                 <label htmlFor="" className={styles.label}><p className={styles.pContact}>Nombre completo</p></label>
@@ -132,7 +132,7 @@ function Contacto() {
             </div>
             <div className={styles.divContactoForm}>
                 <label htmlFor="" className={styles.label}><p className={styles.pContact}>Mensaje</p></label>
-                <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Escriba su mensaje aquí' className={styles.input} cols="50" rows="10" aria-required/>
+                <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Escriba su mensaje aquí' className={styles.input} cols="30" rows="10" aria-required/>
             </div>
             <div className={styles.divButtonContacto}>
                 <button 

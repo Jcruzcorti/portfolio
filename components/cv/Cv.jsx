@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles/Home.module.css'
 import Image from "next/image";
 import Link from 'next/link'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 
 
@@ -11,30 +12,28 @@ function Cv() {
   return (
     <div className={styles.divCv} id={'Cv'}>
 
-
         <div className={styles.divCvIzquierda}>
 
-            <h2 className={styles.h2}>Formación académica</h2>
+            <h3 className={styles.h3}>FORMACIÓN ACADÉMICA</h3>
             <div className={styles.divFormación}>
-                <p className={styles.h4}>Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013</p>
-                <p className={styles.h4}>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p>
-                <Link href={'https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png'}  target='_blank'><p className={styles.h4}>Curso de Desarrollo web en Coderhouse-Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/js.png'}  target='_blank'><p className={styles.h4}>Curso de Javascript en Coderhouse-Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/reactjs.png'}  target='_blank'><p className={styles.h4}>Curso de React Js en Coderhouse-Ver certificación</p></Link>
+                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013</p>
+                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p>
+                <Link href={'https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Desarrollo web en Coderhouse-Ver certificación</p></Link>
+                <Link href={'https://jcruzcorti.github.io/CV/img/js.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Javascript en Coderhouse-Ver certificación</p></Link>
+                <Link href={'https://jcruzcorti.github.io/CV/img/reactjs.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de React Js en Coderhouse-Ver certificación</p></Link>
 
             </div>
             
-            <h2 className={styles.h2}>Aptitudes</h2>
+            <h3 className={styles.h3}>APITUDES</h3>
             <div className={styles.divAptitudes}>
-                <p className={styles.h4}>Resolución de problemas, buena comunicación, adaptabilidad, organización/orden</p>
-                <p className={styles.h4}>Esfuerzo, constancia, positividad</p>
-                <p className={styles.h4}>Proactividad, autodidacta, empatía, autonomía</p>
+                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Resolución de problemas, buena comunicación, adaptabilidad, organización/orden</p>
+                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Esfuerzo, constancia, positividad</p>
+                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Proactividad, autodidacta, empatía, autonomía</p>
             </div>
         </div>
     
-
         <div className={styles.divCvDerecha}>
-            <h2 className={styles.h2} >Conocimientos</h2>
+            <h3 className={styles.h3} >CONOCIMIENTOS</h3>
 
             <div className={styles.divConocimientos}>
                 
@@ -64,7 +63,7 @@ function Cv() {
                 </div>
             </div>
 
-                <h2 className={styles.h2}>Idiomas</h2>
+                <h3 className={styles.h3}>IDIOMAS</h3>
 
                 <div className={styles.divIdiomas}>
                     
