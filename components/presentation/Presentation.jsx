@@ -10,15 +10,20 @@ function Presentation() {
 
   return (
 
+  <div className={styles.DivPrimaryPresentation}>
     <div className={styles.divPresentation}>
-     <div className={styles.divStart}>
-     <Image src='/fotocv2.png' alt='img cv' priority={true} width={220} height={280} className={styles.fotoCv}/>
-        <h3 className={styles.h3Presentation}>JUAN CRUZ CORTIÑAS</h3>
-        <h3 className={styles.h3Presentation}>FRONT-END DEVELOPER</h3>
+      <div className={styles.divStart}>
+          <h2 className={styles.h3Presentation}>Hola! Soy Juan Cruz Cortiñas</h2>
+          <h3 className={styles.h4}>Front-end Developer</h3>
+          
+        </div>
+        <div className={styles.divStart2}>
+          <Image src='/fotocv.png' alt='img cv' priority={true} width={220} height={200} className={styles.fotoCv}/> 
+        </div>
         
-      </div>
-      <NavBar/>
     </div> 
+    <NavBar/>
+  </div>
   )
 }
 

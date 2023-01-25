@@ -8,6 +8,8 @@ import Link from 'next/link'
 import Portfolio from '../components/portfolio/Portfolio'
 import Sobremi from '../components/sobremi/Sobremi'
 import Contacto from '../components/contacto/Contacto'
+import ButtonTheme from '../components/buttons/ButtonTheme';
+import ButtonLinkHome from '../components/buttons/ButtonLinkHome';
 
 export default function Home() {
 
@@ -23,11 +25,11 @@ function changeBackgroundColor() {
       <div className={colorTheme ? styles.container : styles.container2}>
 
         <div className={styles.divButton}>
-          <button 
-          onClick={changeBackgroundColor} 
-          className={colorTheme ? styles.secondaryColor : styles.principalColor}>
-            <Image src="/mode.png" alt='img change mode' width={40} height={40} className={styles.ColorTheme}/>
-          </button>
+          <ButtonTheme 
+          onClick={changeBackgroundColor}/> 
+          
+            {/* <Image src="/mode.png" alt='img change mode' width={40} height={40} className={styles.ColorTheme}/> */}
+          
         </div>
         <div className={styles.divH1}>
           {/* <h1 className={styles.h1}>BIENVENIDO A MI PORTFOLIO </h1> */}
@@ -41,10 +43,8 @@ function changeBackgroundColor() {
           <Contacto/>
         </main>
 
-        <div className={styles.divButton2}>
-          <button className={styles.ColorArrow}>
-           <Link href='/'><Image src="/flecharriba.png" alt='img arrow' width={40} height={40} className={styles.ColorArrowImg}/></Link> 
-          </button>
+        <div className={styles.ButtonLinkHome}>
+          <Link href='/'><ButtonLinkHome/></Link>   
         </div>
 
 
