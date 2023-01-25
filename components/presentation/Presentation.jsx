@@ -10,7 +10,7 @@ function Presentation() {
 
    <div className={styles.divPresentation}>
      <div className={styles.divStart}>
-        <Image src='/fotocv.png' alt='img cv' priority={true} width={250} height={300} className={styles.fotoCv}/>
+        <Image src='/fotocv2.png' alt='img cv' priority={true} width={220} height={280} className={styles.fotoCv}/>
         <h3 className={styles.h3Presentation}>JUAN CRUZ CORTIÑAS</h3>
         <h3 className={styles.h3Presentation}>FRONT-END DEVELOPER</h3>
     </div>
