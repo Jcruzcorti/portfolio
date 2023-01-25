@@ -24,7 +24,7 @@ function Cv() {
 
             </div>
             
-            <h3 className={styles.h3}>APITUDES</h3>
+            <h3 className={styles.h3}>APTITUDES</h3>
             <div className={styles.divAptitudes}>
                 <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Resolución de problemas, buena comunicación, adaptabilidad, organización/orden</p>
                 <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Esfuerzo, constancia, positividad</p>
