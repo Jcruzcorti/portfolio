@@ -259,7 +259,7 @@
 
 .divCv:hover{
   border-radius: 10px;
-  box-shadow: 3px 3px 10px 0.5px #141414;
+  box-shadow: 3px 3px 10px 0.5px #7b7458;
   transition: 0.5s all;
 }
 
@@ -343,6 +343,7 @@
   align-items: center;
   margin-top: 5px;
   padding: 20px; 
+  width:70vmin;
 
 }
 
