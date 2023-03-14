@@ -15,11 +15,11 @@ function Proyectos({item}) {
       <Link href={item.url} target='_blank'>
         <Card sx={{maxWidth: 400, my: 3, }} elevation={8}>    
             <CardMedia
-              component="img"
-              sx={{ height: 220, objectFit:'cover',}}
+              
+              sx={{ height: 220,}}
               image={item.img}
               alt="proyectos"
-              objectFit= "cover"
+              
           />  
           <CardContent sx={{ '&:last-child': { pb: 3, pt: 3, backgroundColor: "#eae8df" }}}>
             <Typography gutterBottom variant="h5" component="div">

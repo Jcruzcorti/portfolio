@@ -5,7 +5,7 @@ export const proyects = [
         tittle:'RAIZ CARPINTERÍA DE DISEÑO',
         description:'Desarrollo de aplicación web para empresa Raiz Carpintería de Diseño, utilizando tencologías como Next.js y Material UI con estilos propios para confeccionar la aplicación',
         url:'https://raizcarpinteria.vercel.app/',
-        img:'/raizweb3.png'      
+        img:'/raizweb3b.png'      
     },
 
     {
