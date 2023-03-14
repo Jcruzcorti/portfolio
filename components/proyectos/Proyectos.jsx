@@ -22,10 +22,10 @@ function Proyectos({item}) {
               
           />  
           <CardContent sx={{ '&:last-child': { pb: 3, pt: 3, backgroundColor: "#eae8df" }}}>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h6" component="div">
                 {item.tittle}
               </Typography>
-              <Typography variant="body1" color="text.secondary">
+              <Typography variant="body2" color="text.secondary">
                 {item.description}
               </Typography>
           </CardContent>
