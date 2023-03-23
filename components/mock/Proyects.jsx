@@ -19,7 +19,7 @@ export const proyects = [
     {
         id:'3',
         tittle:'HARRY POTTER QUIZ',
-        description:"Quiz app con temática Harry Potter utilizando tencologías como JavaScript, React js, Next js y Firebase con el fin de guardar puntuación y nombre del participante",
+        description:"Quiz app de 23 preguntas con temática Harry Potter utilizando tencologías como JavaScript, React js, Next js y Firebase con el fin de guardar puntuación y datos del participante",
         url:'https://harrypotterquizgame.vercel.app/',
         img:'/hp2.png'      
     },
