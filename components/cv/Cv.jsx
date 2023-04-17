@@ -49,16 +49,16 @@ function Cv() {
                         <p className={styles.h4}>CSS</p>
                         <p className={styles.h4}>GIT</p>
                         <p className={styles.h4}>Github</p>
-                        <p className={styles.h4}>Next js</p>
+                        <p className={styles.h4}>Bootstrap</p>
                         <p className={styles.h4}>SCSS</p>
                     </div>
                     <div className={styles.divSub2}>
                         <p className={styles.h4}>JavaScript</p>
                         <p className={styles.h4}>React js</p>
-                        <p className={styles.h4}>Bootstrap</p>
+                        <p className={styles.h4}>Next js</p>
                         <p className={styles.h4}>Firebase</p>
-                        <p className={styles.h4}>Next UI</p>
-                        <p className={styles.h4}>Balsamiq</p>
+                        <p className={styles.h4}>Material UI</p>
+                        <p className={styles.h4}>Tailwind</p>
                     </div>
                 </div>
             </div>
