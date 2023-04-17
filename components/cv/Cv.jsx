@@ -49,7 +49,7 @@ function Cv() {
                         <p className={styles.h4}>CSS</p>
                         <p className={styles.h4}>GIT</p>
                         <p className={styles.h4}>Github</p>
-                        <p className={styles.h4}>Boots</p>
+                        <p className={styles.h4}>Bootstrap</p>
                         <p className={styles.h4}>SCSS</p>
                     </div>
                     <div className={styles.divSub2}>
