@@ -45,17 +45,17 @@ function Cv() {
                 <Image src='/clausura.svg' alt='img clausura'  width={50} height={50} className={styles.fotoConocimiento}/>
                 <div className={styles.divSub}>
                     <div className={styles.divSub1}>
-                        <p className={styles.h4}>HTML</p>
-                        <p className={styles.h4}>CSS</p>
-                        <p className={styles.h4}>GIT</p>
-                        <p className={styles.h4}>Github</p>
-                        <p className={styles.h4}>Bootstrap</p>
-                        <p className={styles.h4}>SCSS</p>
-                    </div>
-                    <div className={styles.divSub2}>
+                        <p className={styles.h4}>HTML,CSS</p>
                         <p className={styles.h4}>JavaScript</p>
                         <p className={styles.h4}>React js</p>
-                        <p className={styles.h4}>Next js</p>
+                        <p className={styles.h4}>GIT</p>
+                        <p className={styles.h4}>Github</p>
+                        <p className={styles.h4}>TypeScript</p>
+                    </div>
+                    <div className={styles.divSub2}>
+                        <p className={styles.h4}>Next.js</p>
+                        <p className={styles.h4}>Node.js</p>
+                        <p className={styles.h4}>Express</p>
                         <p className={styles.h4}>Firebase</p>
                         <p className={styles.h4}>Material UI</p>
                         <p className={styles.h4}>Tailwind</p>
@@ -67,8 +67,8 @@ function Cv() {
 
                 <div className={styles.divIdiomas}>
                     
-                    <p className={styles.h4}>Español: nativo</p>
-                    <p className={styles.h4}>Inglés: intermedio/avanzado</p>
+                    <p className={styles.h4}>Español: Nativo</p>
+                    <p className={styles.h4}>Inglés: Intermedio/avanzado</p>
                 </div>
         </div>
     </div>
