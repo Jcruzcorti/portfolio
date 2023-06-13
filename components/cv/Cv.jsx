@@ -45,7 +45,7 @@ function Cv() {
                 <Image src='/clausura.svg' alt='img clausura'  width={50} height={50} className={styles.fotoConocimiento}/>
                 <div className={styles.divSub}>
                     <div className={styles.divSub1}>
-                        <p className={styles.h4}>HTML-CSS</p>
+                        <p className={styles.h4}>HTML - CSS</p>
                         <p className={styles.h4}>JavaScript</p>
                         <p className={styles.h4}>React.js</p>
                         <p className={styles.h4}>GIT</p>
