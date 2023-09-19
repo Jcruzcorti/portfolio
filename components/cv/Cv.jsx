@@ -17,10 +17,11 @@ function Cv() {
             <h3 className={styles.h3}>FORMACIÓN ACADÉMICA</h3>
             <div className={styles.divFormación}>
                 <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013</p>
-                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p>
-                <Link href={'https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Desarrollo web en Coderhouse-Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/js.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Javascript en Coderhouse-Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/reactjs.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de React Js en Coderhouse-Ver certificación</p></Link>
+                {/* <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p> */}
+                <Link href={'https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Desarrollo web - Ver certificación</p></Link>
+                <Link href={'https://jcruzcorti.github.io/CV/img/js.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Javascript - Ver certificación</p></Link>
+                <Link href={'https://jcruzcorti.github.io/CV/img/reactjs.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de React Js - Ver certificación</p></Link>
+                <Link href={'https://udemy-certificate.s3.amazonaws.com/image/UC-3c5aca55-33f2-4b1f-966f-17f4ad4ba5d0.jpg'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Excel - Ver certificación</p></Link>
 
             </div>
             
@@ -51,6 +52,7 @@ function Cv() {
                         <p className={styles.h4}>GIT</p>
                         <p className={styles.h4}>Github</p>
                         <p className={styles.h4}>TypeScript</p>
+                        <p className={styles.h4}>Excel</p>
                     </div>
                     <div className={styles.divSub2}>
                         <p className={styles.h4}>Next.js</p>
@@ -59,6 +61,8 @@ function Cv() {
                         <p className={styles.h4}>Firebase</p>
                         <p className={styles.h4}>Material UI</p>
                         <p className={styles.h4}>Tailwind</p>
+                        <p className={styles.h4}>SQL</p>
+                        
                     </div>
                 </div>
             </div>
