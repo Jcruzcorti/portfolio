@@ -12,7 +12,7 @@ function Portfolio() {
     <div className={styles.divPortfolio} id={'Portfolio'}>
         <h2 className={styles.h2}>PROYECTOS</h2>
 
-        <Grid container spacing={0} justifyContent='center' gap={5} my={1}>
+        <Grid container spacing={0} justifyContent='flex-start' gap={5} my={1}>
      
           {proyects.map((proyect)=>(
               <Proyectos key={proyect.id} item={proyect}/>
