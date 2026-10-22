@@ -4,7 +4,98 @@ import Image from "next/image";
 import Link from 'next/link'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
+// Experience data
+const experience = [
+  {
+    id: 0,
+    tittle: "Full Stack Developer — RotoGPT (Reefinery, Inc.). Remoto (EE.UU.). mar. 2024 – actualidad",
+  },
+  {
+    id: 1,
+    tittle: "Desarrollador Front-end — Freelance. Córdoba, Argentina. may. 2022 – feb. 2024",
+  },
+];
 
+// Academic Background data
+const academicBackground = [
+  {
+    id: 0,
+    tittle: "Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013",
+  },
+  {
+    id: 1,
+    tittle: "Curso de Desarrollo web - Ver certificación",
+    href: "https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png",
+  },
+  {
+    id: 2,
+    tittle: "Curso de Javascript - Ver certificación",
+    href: "https://jcruzcorti.github.io/CV/img/js.png",
+  },
+  {
+    id: 3,
+    tittle: "Curso de React Js - Ver certificación",
+    href: "https://jcruzcorti.github.io/CV/img/reactjs.png",
+  },
+  {
+    id: 4,
+    tittle: "React.js Intermedio y Avanzado en OpenBootcamp · 2023",
+  },
+  {
+    id: 5,
+    tittle: "Curso de Excel - Ver certificación",
+    href: "https://udemy-certificate.s3.amazonaws.com/image/UC-3c5aca55-33f2-4b1f-966f-17f4ad4ba5d0.jpg",
+  },
+];
+
+// Aptitudes data
+const aptitudes = [
+  {
+    id: 0,
+    tittle: "Resolución de problemas, buena comunicación, adaptabilidad, organización/orden",
+  },
+  {
+    id: 1,
+    tittle: "Esfuerzo, constancia, positividad",
+  },
+  {
+    id: 2,
+    tittle: "Proactividad, autodidacta, empatía, autonomía",
+  },
+];
+
+// Technologies images data
+const technologiesImages = [
+  { id: 0, src: "/apertura.svg", alt: "img apertura" },
+  { id: 1, src: "/html.svg", alt: "img html" },
+  { id: 2, src: "/css.svg", alt: "img css" },
+  { id: 3, src: "/js.svg", alt: "img js" },
+  { id: 4, src: "/react.png", alt: "img react" },
+  { id: 5, src: "/clausura.svg", alt: "img clausura" },
+];
+
+// Knowledges data
+const knowledgesPrimary = ["HTML - CSS", "JavaScript", "TypeScript", "React.js", "Next.js", "Material UI", "Tailwind"];
+const knowledgesSecondary = ["Node.js", "NestJS", "MongoDB", "Capacitor", "Auth0 / Stripe", "Firebase / GCP", "Github"];
+
+function CvItem({ tittle, href }) {
+  const content = (
+    <p className={styles.h4}>
+      <ArrowDropDownIcon className={styles.arrowDropDownIcon} />
+      {tittle}
+    </p>
+  );
+
+  if (href) {
+    return (
+      <Link href={href} target="_blank">
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
+}
 
 function Cv() {
 
@@ -14,22 +105,26 @@ function Cv() {
 
         <div className={styles.divCvIzquierda}>
 
+            <h3 className={styles.h3}>EXPERIENCIA</h3>
+            <div className={styles.divFormación}>
+                {experience.map((item) => (
+                  <CvItem key={item.id} tittle={item.tittle} />
+                ))}
+            </div>
+
             <h3 className={styles.h3}>FORMACIÓN ACADÉMICA</h3>
             <div className={styles.divFormación}>
-                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Bachiller orientado en economía y gestión de las organizaciones en Instituto Juan Zorrilla de San Martín 2008-2013</p>
                 {/* <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Licenciatura en Psicología en Facultad de Psicología UNC. 2015 - Actualidad</p> */}
-                <Link href={'https://jcruzcorti.github.io/CV/img/certificadocoder-copia.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Desarrollo web - Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/js.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Javascript - Ver certificación</p></Link>
-                <Link href={'https://jcruzcorti.github.io/CV/img/reactjs.png'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de React Js - Ver certificación</p></Link>
-                <Link href={'https://udemy-certificate.s3.amazonaws.com/image/UC-3c5aca55-33f2-4b1f-966f-17f4ad4ba5d0.jpg'}  target='_blank'><p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Curso de Excel - Ver certificación</p></Link>
-
+                {academicBackground.map((item) => (
+                  <CvItem key={item.id} tittle={item.tittle} href={item.href} />
+                ))}
             </div>
             
             <h3 className={styles.h3}>APTITUDES</h3>
             <div className={styles.divAptitudes}>
-                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Resolución de problemas, buena comunicación, adaptabilidad, organización/orden</p>
-                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Esfuerzo, constancia, positividad</p>
-                <p className={styles.h4}><ArrowDropDownIcon className={styles.arrowDropDownIcon}/>Proactividad, autodidacta, empatía, autonomía</p>
+                {aptitudes.map((item) => (
+                  <CvItem key={item.id} tittle={item.tittle} />
+                ))}
             </div>
         </div>
     
@@ -38,31 +133,19 @@ function Cv() {
 
             <div className={styles.divConocimientos}>
                 
-                <Image src='/apertura.svg' alt='img apertura' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/html.svg' alt='img html' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/css.svg' alt='img css'  width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/js.svg' alt='img js' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/react.png' alt='img react'  width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/clausura.svg' alt='img clausura'  width={50} height={50} className={styles.fotoConocimiento}/>
+                {technologiesImages.map((technology) => (
+                  <Image key={technology.id} src={technology.src} alt={technology.alt} width={50} height={50} className={styles.fotoConocimiento}/>
+                ))}
                 <div className={styles.divSub}>
                     <div className={styles.divSub1}>
-                        <p className={styles.h4}>HTML - CSS</p>
-                        <p className={styles.h4}>JavaScript</p>
-                        <p className={styles.h4}>React.js</p>
-                        <p className={styles.h4}>GIT</p>
-                        <p className={styles.h4}>Github</p>
-                        <p className={styles.h4}>TypeScript</p>
-                        <p className={styles.h4}>Excel</p>
+                        {knowledgesPrimary.map((knowledge) => (
+                          <p className={styles.h4} key={knowledge}>{knowledge}</p>
+                        ))}
                     </div>
                     <div className={styles.divSub2}>
-                        <p className={styles.h4}>Next.js</p>
-                        <p className={styles.h4}>Node.js</p>
-                        <p className={styles.h4}>Express</p>
-                        <p className={styles.h4}>Firebase</p>
-                        <p className={styles.h4}>Material UI</p>
-                        <p className={styles.h4}>Tailwind</p>
-                        <p className={styles.h4}>SQL</p>
-                        
+                        {knowledgesSecondary.map((knowledge) => (
+                          <p className={styles.h4} key={knowledge}>{knowledge}</p>
+                        ))}
                     </div>
                 </div>
             </div>
@@ -72,7 +155,7 @@ function Cv() {
                 <div className={styles.divIdiomas}>
                     
                     <p className={styles.h4}>Español: Nativo</p>
-                    <p className={styles.h4}>Inglés: Intermedio/avanzado</p>
+                    <p className={styles.h4}>Inglés: Profesional</p>
                 </div>
         </div>
     </div>

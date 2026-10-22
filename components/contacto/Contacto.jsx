@@ -85,7 +85,7 @@ function Contacto() {
             title: 'Mensaje enviado'
           })
 
-          emailjs.sendForm('service_q4h5kuc', 'template_px4j7b8', form.current, 'qz1-4pKUlGcUfd2CX')
+          emailjs.sendForm('service_6jaeoun', 'template_px4j7b8', form.current, 'qz1-4pKUlGcUfd2CX')
     
           e.target.reset()
           
