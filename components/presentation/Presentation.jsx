@@ -13,7 +13,7 @@ function Presentation() {
       delay: 100,
       duration: 400,
     });
-  });
+  }, []);
 
 
 
@@ -23,7 +23,7 @@ function Presentation() {
     <div className={styles.divPresentation}>
       <div className={styles.divStart}>
           <h2 className={styles.h2}>Hola! Soy Juan Cruz Cortiñas</h2>
-          <h3 className={styles.h3}>Front-end Developer</h3>
+          <h3 className={styles.h3}>Full Stack Developer</h3>
           
         </div>
         <div className={styles.divStart2}>

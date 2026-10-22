@@ -1,5 +1,12 @@
 export const proyects = [
 
+    {
+        id:'0',
+        tittle:'ROTOGPT',
+        description:'Asistente de fantasy football con IA (web + iOS/Android con Capacitor). UI en React/TypeScript (chatbot, ligas, Auth0) y colaboración en NestJS, pagos Stripe/IAP y SEO.',
+        url:'https://rotogpt.com/',
+        img:'/rotoGPTlogo1.png'
+    },
 
     {
         id:'1',
@@ -64,13 +71,13 @@ export const proyects = [
         img:'/nike.png'      
     },
     
-    {
-        id:'9',
-        tittle:'MM CHOCOLATES SITIO WEB',
-        description:'Desarrollo y maquetación de sitio web de emprendimiento de chocolates, con tecnologías básicas como HTML, CSS, Bootstrap y JavaScript consumiendo API Email.js para enviar pedido',
-        url:'https://jcruzcorti.github.io/MMchocolates/',
-        img:'/mmchocolates.png'      
-    },
+    // {
+    //     id:'9',
+    //     tittle:'MM CHOCOLATES SITIO WEB',
+    //     description:'Desarrollo y maquetación de sitio web de emprendimiento de chocolates, con tecnologías básicas como HTML, CSS, Bootstrap y JavaScript consumiendo API Email.js para enviar pedido',
+    //     url:'https://jcruzcorti.github.io/MMchocolates/',
+    //     img:'/mmchocolates.png'      
+    // },
     
     {
         id:'10',
@@ -80,13 +87,13 @@ export const proyects = [
         img:'/jh.png'      
     },
     
-    {
-        id:'11',
-        tittle:'CURRICULUM VITAE',
-        description:'Proyecto similar al portfolio actual, sitio web sobre CV con información personal y logros, pero desarrollado y maquetado con tecnologías básicas como HTML, CSS y Bootstrap',
-        url:'https://jcruzcorti.github.io/CV/',
-        img:'/cvviejo.png'      
-    },
+    // {
+    //     id:'11',
+    //     tittle:'CURRICULUM VITAE',
+    //     description:'Proyecto similar al portfolio actual, sitio web sobre CV con información personal y logros, pero desarrollado y maquetado con tecnologías básicas como HTML, CSS y Bootstrap',
+    //     url:'https://jcruzcorti.github.io/CV/',
+    //     img:'/cvviejo.png'      
+    // },
     
 
 ]

@@ -259,7 +259,7 @@
 
 .divCv:hover{
   border-radius: 10px;
-  box-shadow: 3px 3px 10px 0.5px #7b7458;
+  box-shadow: 3px 3px 10px 0.5px #141414;
   transition: 0.5s all;
 }
 
@@ -336,6 +336,17 @@
   
 }
 
+.divPortfolioGrid{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.divPortfolioGridInner{
+  width: 100%;
+  max-width: 1280px;
+}
+
 .divProyectos{
   display: flex;
   flex-direction: row;
@@ -406,7 +417,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 100px;
   padding: 10px;
 }
 
@@ -461,7 +472,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 100px;
   
 }
 
@@ -529,7 +540,7 @@
   border: 1px solid #141414;
   border-radius: 4px;
   box-shadow: 0px 0px 2px 0.5px #141414;
-  
+  color: #141414;
 }
 
 .buttonContacto:hover{
@@ -884,6 +895,17 @@
       
         
         
+      }
+
+      .divPortfolioGrid{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .divPortfolioGridInner{
+        width: 100%;
+        max-width: 100%;
       }
       
       .divProyectos{
